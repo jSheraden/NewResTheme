@@ -11,9 +11,11 @@
 
 <body <?php body_class(); ?>>
   <div class="container-fluid">
-    <div class="navbar-header">
-      <div class="site-title">
-        <h1><?php bloginfo( 'name' ); ?></h1>
+    <div class="navbar navbar-default">
+      <div class="navbar-header">
+        <div class="site-title">
+          <h1><?php bloginfo( 'name' ); ?></h1>
+        </div>
       </div>
     </div>
     <div class="container page-content">

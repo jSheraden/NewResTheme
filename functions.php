@@ -10,4 +10,15 @@ function theme_resources() {
 
 add_action( 'wp_enqueue_scripts', 'theme_resources' );
 
+function post_loop( $content_type ) {
+    if ( have_posts() ) {
+        while( have_posts() ) {
+            the_post();
+            get_template_part( 'content', $content_type );
+        }
+    } else {
+        echo '<p>No content found.</p>';
+    }
+}
+
 ?>

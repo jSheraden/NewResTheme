@@ -16,3 +16,4 @@
         <h1><?php bloginfo( 'name' ); ?></h1>
       </div>
     </div>
+    <div class="container page-content">

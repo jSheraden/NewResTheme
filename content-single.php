@@ -6,7 +6,7 @@
       <a class="author" href="<?php echo $author_archive_link; ?>"><?php the_author(); ?></a> 
       on 
       <?php the_time( "F jS, Y g:i a" ); ?>
-	  </i>
+    </i>
   </h5>
   <h4><?php the_content(); ?></h4>
 </article>

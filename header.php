@@ -18,6 +18,7 @@
             <h1><?php bloginfo( 'name' ); ?></h1>
           </a>
         </div>
+        <div><?php wp_nav_menu(); ?></div>
       </div>
     </div>
     <div class="container page-content">

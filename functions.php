@@ -6,7 +6,7 @@ $args = array(
 	'container'       => 'div',
 	'container_class' => '',
 	'container_id'    => '',
-	'menu_class'      => 'menu.nav.nav-pills',
+	'menu_class'      => 'menu nav nav-pills',
 	'menu_id'         => '',
 	'echo'            => true,
 	'fallback_cb'     => 'wp_page_menu',
@@ -18,6 +18,8 @@ $args = array(
 	'depth'           => 0,
 	'walker'          => ''
 );
+
+wp_nav_menu( $args );
 
 function theme_resources() {
     wp_enqueue_style( 'style', get_stylesheet_uri() );

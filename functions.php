@@ -1,6 +1,7 @@
 <?php
 
-$args = array(
+function get_responsive_menu() {
+    $args = array(
 	'theme_location'  => '',
 	'menu'            => '',
 	'container'       => 'div',
@@ -17,9 +18,10 @@ $args = array(
 	'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
 	'depth'           => 0,
 	'walker'          => ''
-);
-
-wp_nav_menu( $args );
+    );
+    
+    wp_nav_menu( $args );
+}
 
 function theme_resources() {
     wp_enqueue_style( 'style', get_stylesheet_uri() );

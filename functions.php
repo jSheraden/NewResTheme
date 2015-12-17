@@ -7,7 +7,7 @@ function get_responsive_menu() {
 	'container'       => 'div',
 	'container_class' => 'collapse navbar-collapse',
 	'container_id'    => 'res-menu',
-	'menu_class'      => 'menu nav navbar-nav nav-pills',
+	'menu_class'      => 'menu nav navbar-nav',
 	'menu_id'         => '',
 	'echo'            => true,
 	'fallback_cb'     => 'wp_page_menu',

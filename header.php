@@ -11,14 +11,22 @@
 
 <body <?php body_class(); ?>>
   <div class="container-fluid">
-    <div class="navbar navbar-default">
-      <div class="navbar-header">
-        <div class="site-title">
-          <a href="<?php echo site_url(); ?>">
-            <h1><?php bloginfo( 'name' ); ?></h1>
-          </a>
-        </div>
-        <div><?php get_responsive_menu(); ?></div>
+    <div>
+      <div class="site-title">
+        <a href="<?php echo site_url(); ?>">
+          <h1><?php bloginfo( 'name' ); ?></h1>
+        </a>
       </div>
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#res-menu" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <?php get_responsive_menu(); ?>
+      </nav>
     </div>
     <div class="container page-content">

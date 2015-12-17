@@ -11,7 +11,7 @@
 
 <body <?php body_class(); ?>>
   <div class="container-fluid">
-    <div>
+    <div class="site-header">
       <div class="site-title">
         <a href="<?php echo site_url(); ?>">
           <h1><?php bloginfo( 'name' ); ?></h1>

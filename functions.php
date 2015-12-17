@@ -6,7 +6,7 @@ function get_responsive_menu() {
 	'menu'            => '',
 	'container'       => 'div',
 	'container_class' => '',
-	'container_id'    => '',
+	'container_id'    => 'res-menu',
 	'menu_class'      => 'menu nav nav-pills',
 	'menu_id'         => '',
 	'echo'            => true,

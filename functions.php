@@ -1,5 +1,6 @@
 <?php
 
+// Display the header menu.
 function get_responsive_menu() {
     $args = array(
 	'theme_location'  => '',
@@ -23,6 +24,7 @@ function get_responsive_menu() {
     wp_nav_menu( $args );
 }
 
+// Get jQuery, Bootstrap, and theme script.
 function theme_resources() {
     wp_enqueue_style( 'style', get_stylesheet_uri() );
     wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri() . '/bower_components/bootstrap/dist/css/bootstrap.min.css' );
@@ -33,6 +35,8 @@ function theme_resources() {
 
 add_action( 'wp_enqueue_scripts', 'theme_resources' );
 
+// Display all available posts of a particular
+// content type.
 function post_loop( $content_type ) {
     if ( have_posts() ) {
         while( have_posts() ) {

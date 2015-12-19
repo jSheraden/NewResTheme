@@ -8,5 +8,5 @@
       <?php the_time( "F jS, Y g:i a" ); ?>
     </i>
   </h5>
-  <h4><?php the_content(); ?></h4>
+  <?php the_content(); ?>
 </article>

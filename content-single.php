@@ -5,7 +5,7 @@
       Posted by 
       <a class="author" href="<?php echo $author_archive_link; ?>"><?php the_author(); ?></a> 
       on 
-      <?php the_time( "F jS, Y g:i a" ); ?>
+      <?php the_time( 'F jS, Y g:i a' ); ?>
     </i>
   </h5>
   <?php the_content(); ?>

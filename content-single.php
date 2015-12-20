@@ -2,7 +2,7 @@
 <h5>
   <i>
     Posted by 
-    <a class="author" href="<?php echo $author_archive_link; ?>"><?php the_author(); ?></a> 
+    <a class="author-archive-link" href="<?php echo $author_archive_link; ?>"><?php the_author(); ?></a> 
     on 
     <?php the_time( 'F jS, Y g:i a' ); ?>
   </i>

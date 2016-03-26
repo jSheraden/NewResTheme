@@ -21,6 +21,7 @@ html, body {
   padding: 0; }
 
 .navbar {
+  height: 100px;
   box-shadow: 5px 0 5px #B8B8B8;
   margin: 0; }
 
@@ -32,8 +33,6 @@ html, body {
   width: 95%;
   margin: 0 auto; }
 
-.jumbotron .site-title {
-  font-family: 'Open Sans'; }
 .jumbotron .separator {
   height: 4px;
   width: 100px;

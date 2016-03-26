@@ -16,7 +16,7 @@
 <body <?php body_class(); ?>>
 	<div class="container-fluid">
     <div class="site-header">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
+      <nav class="navbar navbar-default">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#res-menu" aria-expanded="false">
@@ -32,6 +32,11 @@
           </div>
         </div>
       </nav>
+      <div class="jumbotron text-center">
+        <h1 class="site-title"><?php bloginfo('name'); ?></h1>
+        <div class="separator"></div>
+        <h4 class="site-tagline"><?php bloginfo('description'); ?></h4>
+      </div>
     </div>
     
     <div id="page-wrapper">

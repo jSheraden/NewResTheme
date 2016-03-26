@@ -3,7 +3,67 @@ Theme Name: NewResTheme
 Author: Joseph Sheraden
 Version: 1.0
 */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+#page-wrapper {
+  position: relative;
+  min-height: 100%; }
+
+.container-fluid {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.navbar {
+  box-shadow: 5px 0 5px #B8B8B8;
+  margin: 0; }
+
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+.site-header .container {
+  width: 95%;
+  margin: 0 auto; }
+
+.jumbotron .site-title {
+  font-family: 'Open Sans'; }
+.jumbotron .separator {
+  height: 4px;
+  width: 100px;
+  margin: 20px auto;
+  background-color: #C0C0C0; }
+
+.post-preview:hover {
+  background-color: #F0F0F0; }
+
+.post-single, .post-page {
+  margin-top: 10px; }
+
 .post.col-lg-4 {
   height: 250px; }
+
+.post-body {
+  padding-bottom: 100px; }
+
+#author, #email, #url {
+  position: relative;
+  min-width: 25%;
+  max-width: 100%; }
+
+textarea#comment {
+  position: relative;
+  min-width: 60%;
+  max-width: 100%; }
+
+.site-footer .navbar {
+  margin-bottom: 0;
+  border-radius: 0; }
 
 /*# sourceMappingURL=style.css.map */

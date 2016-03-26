@@ -1,7 +1,7 @@
 	  </div>
 	</div>
   	<div class="site-footer">
-	  <nav class="navbar navbar-inverse navbar-static-bottom">
+	  <nav class="navbar navbar-default navbar-static-bottom">
 	    <div class="container">
 	      <div class="navbar-header">
 	        <span id="copyright" class="navbar-brand"></span>

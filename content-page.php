@@ -1,3 +1,3 @@
-<article class="post post-page col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<article class="post post-page text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <?php the_content(); ?>
 </article>

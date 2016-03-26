@@ -1,2 +1,4 @@
-// I might script some animations with jQuery later on, but I haven't decided yet.
-$(document).ready(function(){});
+$(document).ready(function() {
+  $('#copyright').html('&copy ' + new Date().getFullYear());
+  $('input#submit').addClass('btn btn-primary');
+});

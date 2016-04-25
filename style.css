@@ -32,6 +32,12 @@ html, body {
   width: 95%;
   margin: 0 auto; }
 
+.site-footer .container {
+  width: 95%;
+  margin: 0 auto; }
+
+.jumbotron h1 {
+  font-family: Comic-Sans, "Times New Roman", Times, serif; }
 .jumbotron .separator {
   height: 4px;
   width: 100px;

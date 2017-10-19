@@ -6,10 +6,16 @@ function theme_resources() {
 		'jquery',
 		get_template_directory_uri() . '/bower_components/jquery/dist/jquery.min.js'
 	);
+	*/
 	
 	wp_register_script(
 		'bootstrap',
-		get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.min.js'
+		get_template_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.min.js'
+	);
+	
+	wp_register_script(
+		'bootstrap-without-jquery',
+		get_template_directory_uri() . '/node_modules/bootstrap-without-jquery/dist/bootstrap-without-jquery.min.js'
 	);
 	
 	wp_enqueue_script(
@@ -18,12 +24,15 @@ function theme_resources() {
 		array( 'jquery', 'bootstrap' )
 	);
 
-	wp_enqueue_style('bootstrap', get_stylesheet_directory_uri() . '/bower_components/bootstrap/dist/css/bootstrap.min.css');
-	*/
+	wp_enqueue_style(
+		'bootstrap',
+		get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/css/bootstrap.min.css'
+	);
+	
 	wp_enqueue_style('style', get_stylesheet_uri());
 }
 
-add_action( 'wp_enqueue_scripts', 'theme_resources' );
+add_action('wp_enqueue_scripts', 'theme_resources');
 
 // Display the header navigation menu.
 function get_responsive_menu() {

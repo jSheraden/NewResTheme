@@ -1,4 +1,3 @@
-	  </div>
 	</div>
   	<div class="site-footer">
 	  <nav class="navbar navbar-default navbar-static-bottom">

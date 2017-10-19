@@ -6,9 +6,9 @@
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php bloginfo('name'); ?></title>
-  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/bower_components/jquery/dist/jquery.min.js"></script>
-  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/node_modules/bootstrap-without-jquery/dist/bootstrap-without-jquery.min.js"></script>
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/node_modules/bootstrap/dist/css/bootstrap.min.css">
   <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
   <?php wp_head(); ?>
 </head>
@@ -32,13 +32,7 @@
           </div>
         </div>
       </nav>
-      <div class="jumbotron text-center">
-        <h1 class="site-title"><?php bloginfo('name'); ?></h1>
-        <div class="separator"></div>
-        <h4 class="site-tagline"><?php bloginfo('description'); ?></h4>
-      </div>
     </div>
     
     <div id="page-wrapper">
-      <div class="container page-content">
 	

@@ -7,10 +7,13 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: Verdana; }
 
 #page-wrapper {
   position: relative;
+  line-height: 175%;
+  font-size: 150%;
   min-height: 100%; }
 
 .container-fluid {
@@ -21,20 +24,24 @@ html, body {
   padding: 0; }
 
 .navbar {
-  box-shadow: 5px 0 5px #B8B8B8;
-  margin: 0; }
+  margin: 0;
+  border-radius: 0;
+  font-size: 125%; }
 
-.container {
-  width: 80%;
+.navbar .container {
+  padding: 25px 0 !important; }
+
+.navbar .container {
+  width: 75% !important;
   margin: 0 auto; }
 
-.site-header .container {
-  width: 95%;
-  margin: 0 auto; }
-
+.site-header .container,
 .site-footer .container {
   width: 95%;
   margin: 0 auto; }
+
+.page-content {
+  padding: 25px 0; }
 
 .jumbotron h1 {
   font-family: Comic-Sans, "Times New Roman", Times, serif; }
@@ -69,5 +76,19 @@ textarea#comment {
 .site-footer .navbar {
   margin-bottom: 0;
   border-radius: 0; }
+
+@media screen and (max-width: 750px) {
+  .page-content {
+    padding: 0; }
+
+  .container {
+    width: 100%; }
+
+  .post {
+    margin: 0;
+    padding: 0; }
+
+  #page-wrapper {
+    font-size: 125%; } }
 
 /*# sourceMappingURL=style.css.map */

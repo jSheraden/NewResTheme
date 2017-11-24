@@ -1,13 +1,6 @@
 <?php
 
 function theme_resources() {
-	/*
-	wp_register_script(
-		'jquery',
-		get_template_directory_uri() . '/bower_components/jquery/dist/jquery.min.js'
-	);
-	*/
-	
 	wp_register_script(
 		'bootstrap',
 		get_template_directory_uri() . '/node_modules/bootstrap/dist/js/bootstrap.min.js'

@@ -1,4 +1,4 @@
-$(document).ready(function() {
-  $('#copyright').html('&copy ' + new Date().getFullYear());
-  $('input#submit').addClass('btn btn-primary');
-});
+(function() {
+  var copyright = '&copy; ' + new Date().getFullYear();
+  document.getElementById('copyright').innerHTML = copyright;
+})();

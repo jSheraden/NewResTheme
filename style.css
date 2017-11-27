@@ -8,13 +8,28 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: Verdana; }
+  font-family: Verdana;
+  background-color: #f7f5fb; }
+
+h2 {
+  padding: 0;
+  margin: 0; }
 
 #page-wrapper {
   position: relative;
   line-height: 175%;
   font-size: 150%;
   min-height: 100%; }
+
+#page-title-wrapper {
+  padding: 200px 0;
+  color: #f7f5fb;
+  background-color: #909cc2 !important; }
+
+#page-title {
+  padding: 50px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.25); }
 
 .container-fluid {
   position: relative;
@@ -26,7 +41,11 @@ html, body {
 .navbar {
   margin: 0;
   border-radius: 0;
-  font-size: 125%; }
+  font-size: 125%;
+  border: none;
+  background-color: #084887; }
+  .navbar a, .navbar ul li, .navbar #copyright {
+    color: #f7f5fb !important; }
 
 .navbar .container {
   padding: 25px 0 !important; }
@@ -40,22 +59,21 @@ html, body {
   width: 95%;
   margin: 0 auto; }
 
-.page-content {
-  padding: 25px 0; }
-
-.jumbotron h1 {
-  font-family: Comic-Sans, "Times New Roman", Times, serif; }
-.jumbotron .separator {
+.separator {
   height: 4px;
   width: 100px;
   margin: 20px auto;
-  background-color: #C0C0C0; }
+  background-color: #f7f5fb; }
 
 .post-preview:hover {
-  background-color: #F0F0F0; }
+  background-color: #e0e0e0; }
 
 .post-single, .post-page {
   margin-top: 10px; }
+
+.post-title a {
+  font-size: 150%;
+  color: #f58a07; }
 
 .post.col-lg-4 {
   height: 250px; }

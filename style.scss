@@ -4,12 +4,23 @@ Author: Joseph Sheraden
 Version: 1.0
 */
 
+$bg-color: #f7f5fb;
+$navbar-color: #084887;
+$title-color: #f58a07;
+$pale-blue: #909cc2;
+
 html, body {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
   font-family: Verdana;
+  background-color: $bg-color;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
 }
 
 #page-wrapper {
@@ -17,6 +28,18 @@ html, body {
   line-height: 175%;
   font-size: 150%;
   min-height: 100%;
+}
+
+#page-title-wrapper {
+  padding: 200px 0;
+  color: $bg-color;
+  background-color: $pale-blue !important;
+}
+
+#page-title {
+  padding: 50px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .container-fluid {
@@ -31,6 +54,12 @@ html, body {
   margin: 0;
   border-radius: 0;
   font-size: 125%;
+  border: none;
+  background-color: $navbar-color;
+  
+  a, ul li, #copyright {
+    color: $bg-color !important;
+  }
 }
 
 .navbar .container {
@@ -49,28 +78,27 @@ html, body {
 }
 
 .page-content {
-  padding: 25px 0;
+
 }
 
-.jumbotron {
-  h1 {
-    font-family: Comic-Sans, "Times New Roman", Times, serif;
-  }
-  
-  .separator {
-    height: 4px;
-    width: 100px;
-    margin: 20px auto;
-    background-color: #C0C0C0;
-  }
+.separator {
+  height: 4px;
+  width: 100px;
+  margin: 20px auto;
+  background-color: $bg-color;
 }
 
 .post-preview:hover {
-  background-color: #F0F0F0;
+  background-color: #e0e0e0;
 }
 
 .post-single, .post-page {
   margin-top: 10px;
+}
+
+.post-title a {
+  font-size: 150%;
+  color: $title-color;
 }
 
 .post.col-lg-4 {
